@@ -1,13 +1,13 @@
-import React from 'react'
-import './index.css'
-import AppRoute from './Routes/AppRoute'
+import React from "react";
+import "./index.css";
+import AppRoute from "./Routes/AppRoute";
 
 const App = () => {
   return (
     <>
-      <AppRoute/>
+      <AppRoute />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
