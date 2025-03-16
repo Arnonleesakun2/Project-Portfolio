@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import PDF from "../../assets/img/resume.pdf"
+import PDF from "/img/resume.pdf"
 
 const AboutLeft = () => {
   return (

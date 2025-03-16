@@ -8,18 +8,18 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiPrisma } from "react-icons/si";
 import { SiClerk } from "react-icons/si";
 import { FaCcStripe } from "react-icons/fa";
-import FigmaToReact1 from "../assets/img/Project1.png";
-import carplan1 from "../assets/img/carplan1.png";
-import carplan2 from "../assets/img/carplan2.png";
-import carplan3 from "../assets/img/carplan3.png";
-import carplan4 from "../assets/img/carplan4.png";
-import carplan5 from "../assets/img/carplan5.png";
-import camping1 from "../assets/img/camping1.png";
-import camping2 from "../assets/img/camping2.png";
-import camping3 from "../assets/img/camping3.png";
-import camping4 from "../assets/img/camping4.png";
-import camping5 from "../assets/img/camping5.png";
-import camping6 from "../assets/img/camping6.png";
+import FigmaToReact1 from "/img/Project1.png";
+import carplan1 from "/img/carplan1.png";
+import carplan2 from "/img/carplan2.png";
+import carplan3 from "/img/carplan3.png";
+import carplan4 from "/img/carplan4.png";
+import carplan5 from "/img/carplan5.png";
+import camping1 from "/img/camping1.png";
+import camping2 from "/img/camping2.png";
+import camping3 from "/img/camping3.png";
+import camping4 from "/img/camping4.png";
+import camping5 from "/img/camping5.png";
+import camping6 from "/img/camping6.png";
 
 
 

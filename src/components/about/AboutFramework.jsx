@@ -1,5 +1,4 @@
 import React from "react";
-import { framework } from "../../utils/framework";
 import logo1 from "/img/axios.svg";
 import logo2 from "/img/clerk.svg";
 import logo3 from "/img/daisyui.svg";

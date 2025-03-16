@@ -1,5 +1,5 @@
 import React from "react";
-import Picture from "../../assets/img/Profiles.png";
+import Picture from "/img/profiles.png";
 import { contact } from "../../utils/contact";
 import { Link } from "react-router";
 import { MdOutlineArrowOutward } from "react-icons/md";
