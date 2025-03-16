@@ -1,0 +1,23 @@
+export const framework = [
+    {
+        text:"React"
+    },
+    {
+        text:"Nodejs"
+    },
+    {
+        text:"Tailwind"
+    },
+    {
+        text:"Laravel"
+    },
+    {
+        text:"jQuery"
+    },
+    {
+        text:"DaisyUI"
+    },
+    {
+        text:"Shadcn/ui"
+    },
+]
