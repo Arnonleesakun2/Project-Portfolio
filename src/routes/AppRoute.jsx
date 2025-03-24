@@ -7,10 +7,9 @@ import Layout from "../layout/Layout";
 import Project from "../pages/Project";
 
 const AppRoute = () => {
-  const basename = 'https://ryes-portfolio.netlify.app/'; 
   return (
     <>
-      <BrowserRouter basename={basename}>
+      <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
