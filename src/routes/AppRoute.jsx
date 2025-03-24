@@ -7,10 +7,10 @@ import Layout from "../layout/Layout";
 import Project from "../pages/Project";
 
 const AppRoute = () => {
-  const basename = 'http://localhost:5173/'; // ตั้งค่า subdirectory path
+  const basename = '/my-app'; 
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
