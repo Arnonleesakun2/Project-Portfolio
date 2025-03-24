@@ -4,11 +4,21 @@ import cv from "/img/CV.pdf";
 const AboutLeft = () => {
   return (
     <div className="">
-      <div className="font-PermanentMarker text-[80px] font-semibold text-white">
+      <div
+        className="font-PermanentMarker text-[80px] font-semibold text-white"
+        style={{
+          textShadow: "0 0 5px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 5px #fff",
+        }}
+      >
         Hello,
       </div>
-      <div className="font-PermanentMarker text-[80px] font-semibold text-white">
-        I'm Pop !
+      <div
+        className="font-PermanentMarker text-[80px] font-semibold text-white"
+        style={{
+          textShadow: "0 0 5px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 5px #fff",
+        }}
+      >
+        I'm <span className="text-black">Pop!</span>
       </div>
       <div className="font-thai text-[19px] font-medium text-white leading-[23px]">
         ผมเป็นนักศึกษามหาวิทยาลัยเจ้าพระยา คณะบริหารและการจัดการ

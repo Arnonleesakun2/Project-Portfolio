@@ -4,7 +4,6 @@ import AboutRight from "../components/about/AboutRight";
 import AboutEducation from "../components/about/AboutEducation";
 import AboutExperience from "../components/about/AboutExperience";
 import AboutTechnicalSkill from "../components/about/AboutTechnicalSkill";
-import AboutFramework from "../components/about/AboutFramework";
 import Scroll from "../layout/Scroll";
 //framermotion
 import { motion } from "framer-motion";
@@ -28,18 +27,14 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#030305] min-h-screen">
+        <div className="md:flex bg-[#030305] min-h-screen ">
           <AboutEducation />
           <AboutExperience />
         </div>
-        <div className="bg-[#FFA500] min-h-screen">
+        <div className="bg-[#030305] min-h-screen">
           <div className="maincontainer">
-            <div className="grid md:grid-cols-2">
-              <div className=""></div>
-              <AboutTechnicalSkill />
-            </div>
             <div className="">
-              <AboutFramework />
+              <AboutTechnicalSkill />
             </div>
           </div>
         </div>
