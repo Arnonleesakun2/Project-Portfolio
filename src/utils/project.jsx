@@ -1,4 +1,5 @@
 import { FaReact } from "react-icons/fa";
+import { SiSqlite } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaLaravel } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
@@ -62,6 +63,19 @@ export const project = [
     ],
     des: "โปรเจคนี้เป็นระบบจอง Camping ที่กำลังอยู่ในระหว่างการพัฒนา ที่ทำตาม Youtube BY รอยไถ พัฒนา เป็นเว็บแอปพลิเคชันที่ใช้ CRUD โดยมีการนำไลบรารีต่างๆ มาใช้เพื่อเพิ่มประสิทธิภาพ เช่น Clerk สำหรับระบบล็อกอิน Stripe สำหรับระบบชำระเงิน Prisma สำหรับการจัดการฐานข้อมูล และใช้ Node.js เป็นฝั่ง Backend ในการพัฒนาโปรเจคนี้ได้เรียนรู้เกี่ยวกับการออกแบบ Folder Structure ที่เป็นระเบียบและง่ายต่อการดูแล การจัดการ API และการแยก Component เพื่อให้โค้ดสามารถขยายและบำรุงรักษาได้ง่ายขึ้น",
     demo: "",
-    github:["https://github.com/Arnonleesakun2/Project-camping-Client","https://github.com/Arnonleesakun2/Project-camping-Server"],
+    github:["https://github.com/Arnonleesakun2/Project-Camping"],
+  },
+  {
+    image: "",
+    title: "Project-Todolist",
+    icon: [
+      <FaReact />,
+      <RiTailwindCssFill />,
+      <FaLaravel />,
+      <SiSqlite />,
+    ],
+    des: "Project-Todolist เป็นโปรเจคเล็กๆ ที่มีการเพิ่ม ลบ รายการใน To-Do List โดยใช้ React ด้านหน้าบ้านและ Laravel ด้านหลังบ้าน โดยใช้ SQLite เป็นฐานข้อมูล",
+    demo: "",
+    github:["https://github.com/Arnonleesakun2/Project-Todolist"],
   },
 ];
