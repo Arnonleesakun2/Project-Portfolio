@@ -7,6 +7,7 @@ import AboutTechnicalSkill from "../components/about/AboutTechnicalSkill";
 import Scroll from "../layout/Scroll";
 //framermotion
 import { motion } from "framer-motion";
+import ProjectContent from "../components/project/ProjectContent";
 
 const About = () => {
   return (
@@ -20,9 +21,7 @@ const About = () => {
         <div className="bg-[#FFA500] min-h-[115vh] sm:min-h-screen">
           <div className="maincontainer pt-[86px]">
             <div className="p-[50px] md:grid md:grid-cols-2">
-              {/* LeftContent */}
               <AboutLeft />
-              {/* RightContent */}
               <AboutRight />
             </div>
           </div>
@@ -33,9 +32,8 @@ const About = () => {
         </div>
         <div className="bg-[#030305] min-h-screen">
           <div className="maincontainer">
-            <div className="">
+              <ProjectContent/>
               <AboutTechnicalSkill />
-            </div>
           </div>
         </div>
       </motion.div>

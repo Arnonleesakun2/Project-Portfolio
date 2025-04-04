@@ -17,6 +17,7 @@ import picture16 from "../../public/imgTect/Zustand.png";
 import picture17 from "../../public/imgTect/Zod.png";
 import picture18 from "../../public/imgTect/Github.png";
 import picture19 from "../../public/imgTect/Postman.png";
+import picture20 from "../../public/imgTect/mongodb.png";
 
 export const techskill = [
   {
@@ -94,5 +95,9 @@ export const techskill = [
   {
     img: picture19,
     text: "Postman",
+  },
+  {
+    img: picture20,
+    text: "MongoDB",
   },
 ];

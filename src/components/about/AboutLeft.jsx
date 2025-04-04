@@ -1,9 +1,10 @@
 import React from "react";
 import resume from "/img/resume.pdf";
 import cv from "/img/CV.pdf";
+import FadeInWhenVisible from "../motion/FadeInWhenVisible ";
 const AboutLeft = () => {
   return (
-    <div className="">
+    <FadeInWhenVisible>
       <div
         className="font-PermanentMarker text-[80px] font-semibold text-white"
         style={{
@@ -47,7 +48,7 @@ const AboutLeft = () => {
           </a>
         </div>
       </div>
-    </div>
+    </FadeInWhenVisible>
   );
 };
 

@@ -2,7 +2,7 @@ import { techskill } from "../../utils/techskill";
 
 const AboutTechnicalSkill = () => {
   return (
-    <div className="p-[70px] pt-[300px]">
+    <div className="p-[70px] ">
       <div className="font-PermanentMarker text-white text-[60px] font-semibold text-center">
         Technical Skill
       </div>
