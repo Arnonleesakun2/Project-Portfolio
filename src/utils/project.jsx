@@ -11,6 +11,10 @@ import { SiClerk } from "react-icons/si";
 import { FaCcStripe } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiSupabaseFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 import FigmaToReact1 from "/img/Project1.png";
 import carplan1 from "/img/carplan1.png";
 import carplan2 from "/img/carplan2.png";
@@ -26,6 +30,7 @@ import camping6 from "/img/camping6.png";
 import social1 from "/img/social1.png";
 import social2 from "/img/social2.png";
 import social3 from "/img/social3.png";
+import blog from "/img/simpleblog.png";
 
 export const project = [
   {
@@ -82,5 +87,13 @@ export const project = [
     des: "Project-Social เป็นโปรเจกต์โซเชียลมีเดียขนาดเล็กที่พัฒนาด้วย Stack สมัยใหม่ มีระบบยืนยันตัวตนผ่าน Clerk สามารถสร้างโพสต์ ลบโพสต์ กด Like ดูข้อมูลผู้ใช้ รวมถึงระบบลงทะเบียนและล็อกอินอย่างปลอดภัย",
     demo: "https://project-social.netlify.app/",
     github: ["https://github.com/Arnonleesakun2/Project-Social"],
+  },
+  {
+    image: [blog],
+    title: "Project-SimpleBlog",
+    icon: [<RiNextjsFill />,<SiClerk />,<SiTypescript />,<RiSupabaseFill />,<SiPostgresql />],
+    des: "โปรเจ็ค Simple-Blog เป็นเว็บบล็อกขนาดเล็กที่ให้ฟีเจอร์ในการเพิ่ม, แก้ไข, และลบบล็อกโพสต์ โดยใช้เทคโนโลยีที่ทันสมัยในการพัฒนาและจัดการข้อมูล ดังนี้ Next.js ใช้เป็นเฟรมเวิร์กหลักในการพัฒนาเว็บไซต์ ShadcnUI ใช้ในการออกแบบ UI ของเว็บไซต์ให้ดูสวยงามและทันสมัย PostgreSQL และ Supabase ใช้ PostgreSQL ในการจัดเก็บข้อมูลของบล็อกโพสต์ และ Supabase เป็นบริการฐานข้อมูล Clerk ใช้ในการจัดการผู้ใช้และการยืนยันตัวตน (Authentication) Render ใช้ในการ deploy โปรเจ็คให้พร้อมใช้งานบนเว็บไซต์",
+    demo: "https://project-simpleblog.onrender.com/",
+    github: ["https://github.com/Arnonleesakun2/Project-SimpleBlog"],
   },
 ];
