@@ -8,7 +8,7 @@ import FadeInWhenVisible from "../motion/FadeInWhenVisible ";
 
 const ProjectContent = () => {
   return (
-    <div className="w-[80%] py-[50px] mx-auto pt-[300px]">
+    <div className="w-[80%] py-[50px] mx-auto pt-[100px]">
       <div className="font-shortstack font-semibold py-[20px] text-[30px] text-white">
         Project
       </div>

@@ -26,15 +26,13 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="md:flex bg-[#030305] min-h-screen ">
-          <AboutEducation />
-          <AboutExperience />
-        </div>
         <div className="bg-[#030305] min-h-screen">
-          <div className="maincontainer">
-              <ProjectContent/>
-              <AboutTechnicalSkill />
+          <div className=" md:grid md:grid-cols-2 maincontainer">
+            <AboutEducation />
+            <AboutExperience />
           </div>
+          <ProjectContent />
+          <AboutTechnicalSkill />
         </div>
       </motion.div>
     </>
