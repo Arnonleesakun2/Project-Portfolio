@@ -33,9 +33,8 @@ const Navbar = () => {
         backgroundColor: lastScrollY > 50 ? "rgba(0, 0, 0, 0.8)" : "transparent",
       }}
     >
-      <div className="maincontainer flex justify-between">
+      <div className="maincontainer ">
         <Logo />
-        <Menu />
       </div>
     </div>
   );
