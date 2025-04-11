@@ -15,6 +15,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { SiShadcnui } from "react-icons/si";
 import FigmaToReact1 from "/img/Project1.png";
 import carplan1 from "/img/carplan1.png";
 import carplan2 from "/img/carplan2.png";
@@ -31,6 +32,9 @@ import social1 from "/img/social1.png";
 import social2 from "/img/social2.png";
 import social3 from "/img/social3.png";
 import blog from "/img/simpleblog.png";
+import employee1 from "/img/employee1.png";
+import employee2 from "/img/employee2.png";
+import employee3 from "/img/employee3.png";
 
 export const project = [
   {
@@ -75,7 +79,7 @@ export const project = [
   {
     image: "",
     title: "Project-Todolist",
-    icon: [<FaReact />, <RiTailwindCssFill />, <FaLaravel />, <SiSqlite />],
+    icon: [<FaReact />,<SiShadcnui />, <RiTailwindCssFill />, <FaLaravel />, <SiSqlite />],
     des: "Project-Todolist เป็นโปรเจคเล็กๆ ที่มีการเพิ่ม ลบ รายการใน To-Do List โดยใช้ React ด้านหน้าบ้านและ Laravel ด้านหลังบ้าน โดยใช้ SQLite เป็นฐานข้อมูล",
     demo: "",
     github: ["https://github.com/Arnonleesakun2/Project-Todolist"],
@@ -83,7 +87,15 @@ export const project = [
   {
     image: [social1, social2, social3],
     title: "Project-Social",
-    icon: [<FaReact />, <RiTailwindCssFill />, <SiClerk />, <FaNodeJs  />,<SiExpress />,<SiMongodb />],
+    icon: [
+      <FaReact />,
+      <SiShadcnui />,
+      <RiTailwindCssFill />,
+      <SiClerk />,
+      <FaNodeJs />,
+      <SiExpress />,
+      <SiMongodb />,
+    ],
     des: "Project-Social เป็นโปรเจกต์โซเชียลมีเดียขนาดเล็กที่พัฒนาด้วย Stack สมัยใหม่ มีระบบยืนยันตัวตนผ่าน Clerk สามารถสร้างโพสต์ ลบโพสต์ กด Like ดูข้อมูลผู้ใช้ รวมถึงระบบลงทะเบียนและล็อกอินอย่างปลอดภัย",
     demo: "https://project-social.netlify.app/",
     github: ["https://github.com/Arnonleesakun2/Project-Social"],
@@ -91,9 +103,25 @@ export const project = [
   {
     image: [blog],
     title: "Project-SimpleBlog",
-    icon: [<RiNextjsFill />,<SiClerk />,<SiTypescript />,<RiSupabaseFill />,<SiPostgresql />],
+    icon: [
+      <RiNextjsFill />,
+      <SiShadcnui />,
+      <RiTailwindCssFill />, 
+      <SiClerk />,
+      <SiTypescript />,
+      <RiSupabaseFill />,
+      <SiPostgresql />,
+    ],
     des: "โปรเจ็ค Simple-Blog เป็นเว็บบล็อกขนาดเล็กที่ให้ฟีเจอร์ในการเพิ่ม, แก้ไข, และลบบล็อกโพสต์ โดยใช้เทคโนโลยีที่ทันสมัยในการพัฒนาและจัดการข้อมูล ดังนี้ Next.js ใช้เป็นเฟรมเวิร์กหลักในการพัฒนาเว็บไซต์ ShadcnUI ใช้ในการออกแบบ UI ของเว็บไซต์ให้ดูสวยงามและทันสมัย PostgreSQL และ Supabase ใช้ PostgreSQL ในการจัดเก็บข้อมูลของบล็อกโพสต์ และ Supabase เป็นบริการฐานข้อมูล Clerk ใช้ในการจัดการผู้ใช้และการยืนยันตัวตน (Authentication) Render ใช้ในการ deploy โปรเจ็คให้พร้อมใช้งานบนเว็บไซต์",
     demo: "https://project-simpleblog.onrender.com/",
     github: ["https://github.com/Arnonleesakun2/Project-SimpleBlog"],
+  },
+  {
+    image: [employee1, employee2, employee3],
+    title: "Employee-Management-System",
+    icon: [<FaReact />, <SiShadcnui />, <RiTailwindCssFill />, <FaNodeJs />,<SiExpress/>,<RiSupabaseFill />,<SiPostgresql />],
+    des: "เว็บแอปพลิเคชันขนาดเล็กสำหรับจัดการข้อมูลพนักงาน ประกอบด้วยฟีเจอร์ เช่น การสมัครพนักงาน การดูและลบข้อมูลพนักงาน การคำนวณเงินเดือน และการสร้างรายงาน",
+    demo: "https://employeemn.netlify.app/",
+    github: ["https://github.com/Arnonleesakun2/Employee-Management-System"],
   },
 ];
