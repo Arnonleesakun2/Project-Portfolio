@@ -16,6 +16,8 @@ import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
 import FigmaToReact1 from "/img/Project1.png";
 import carplan1 from "/img/carplan1.png";
 import carplan2 from "/img/carplan2.png";
@@ -35,6 +37,7 @@ import blog from "/img/simpleblog.png";
 import employee1 from "/img/employee1.png";
 import employee2 from "/img/employee2.png";
 import employee3 from "/img/employee3.png";
+import chatassitance from "/img/chatassitance.png";
 
 export const project = [
   {
@@ -123,5 +126,13 @@ export const project = [
     des: "เว็บแอปพลิเคชันขนาดเล็กสำหรับจัดการข้อมูลพนักงาน ประกอบด้วยฟีเจอร์ เช่น การสมัครพนักงาน การดูและลบข้อมูลพนักงาน การคำนวณเงินเดือน และการสร้างรายงาน",
     demo: "https://employeemn.netlify.app/",
     github: ["https://github.com/Arnonleesakun2/Employee-Management-System"],
+  },
+  {
+    image: [chatassitance],
+    title: "Chat-Assitance",
+    icon: [<FaReact />, <SiMui />, <RiTailwindCssFill />, <FaNodeJs />,<SiExpress/>,<GiArtificialIntelligence />],
+    des: "โปรเจกต์เล็กๆ สำหรับแชทถามตอบกับ AI โดยใช้ Cohere AI ให้บริการ AI model",
+    demo: "https://chat-assitance-client.vercel.app/",
+    github: ["https://github.com/Arnonleesakun2/Chat-Assitance"],
   },
 ];
