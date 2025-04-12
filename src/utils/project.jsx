@@ -100,7 +100,7 @@ export const project = [
       <SiMongodb />,
     ],
     des: "Project-Social เป็นโปรเจกต์โซเชียลมีเดียขนาดเล็กที่พัฒนาด้วย Stack สมัยใหม่ มีระบบยืนยันตัวตนผ่าน Clerk สามารถสร้างโพสต์ ลบโพสต์ กด Like ดูข้อมูลผู้ใช้ รวมถึงระบบลงทะเบียนและล็อกอินอย่างปลอดภัย",
-    demo: "https://project-social.netlify.app/",
+    demo: "https://stalwart-creponne-3c6cd7.netlify.app/",
     github: ["https://github.com/Arnonleesakun2/Project-Social"],
   },
   {
