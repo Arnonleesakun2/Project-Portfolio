@@ -18,21 +18,24 @@ const About = () => {
         animate={{ x: 0, opacity: 1, filter: "blur(0px)" }}
         transition={{ duration: 2 }}
       >
-        <div className="bg-[#FFA500] min-h-[115vh] sm:min-h-screen">
-          <div className="maincontainer pt-[86px]">
-            <div className="p-[50px] md:grid md:grid-cols-2">
-              <AboutLeft />
-              <AboutRight />
+        <div className="relative bg-[url('/img/background.gif')] bg-center bg-cover bg-fixed bg-no-repeat min-h-screen pt-20">
+          <div className="absolute inset-0 backdrop-blur-[8px] bg-black/30"></div>
+          <div className="relative z-10">
+            <div className="maincontainer">
+              <div className="p-[50px] md:grid md:grid-cols-2">
+                <AboutLeft />
+                <AboutRight />
+              </div>
+              <div className="md:grid md:grid-cols-2 mt-[100px]">
+                <AboutEducation />
+                <AboutExperience />
+              </div>
+              <div className="">
+                <ProjectContent />
+                <AboutTechnicalSkill />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="bg-[#030305] min-h-screen">
-          <div className=" md:grid md:grid-cols-2 maincontainer">
-            <AboutEducation />
-            <AboutExperience />
-          </div>
-          <ProjectContent />
-          <AboutTechnicalSkill />
         </div>
       </motion.div>
     </>

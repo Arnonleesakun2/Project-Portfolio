@@ -22,10 +22,10 @@ const AboutEducation = () => {
             {education.map((item, index) => {
               return (
                 <div key={index} className="mb-2">
-                    <div className="font-thai text-[22px] leading-[25px] font-semibold">
+                    <div className="font-thai text-[22px] leading-[25px] font-semibold text-white">
                       {item.year}
                     </div>
-                    <div className="font-thai text-[18px] mt-1leading-[25px] ">
+                    <div className="font-thai text-[18px] mt-1 leading-[25px] text-white/80">
                       {item.title}
                     </div>
                 </div>

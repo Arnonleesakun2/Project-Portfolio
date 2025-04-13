@@ -16,7 +16,7 @@ const ProjectContent = () => {
         {project.map((item, index) => {
           return (
             <FadeInWhenVisible key={index}>
-              <div className="sm:flex sm:p-[10px] p-[30px] gap-[20px] min-h-[170px] rounded-[7px] hover:bg-white/10 duration-700">
+              <div className="sm:flex sm:p-[10px] p-[40px] gap-[20px] min-h-[170px] rounded-[7px] bg-white/10 backdrop-blur-md border border border-white/20">
                 <div className="sm:w-[30%]">
                   {item.image[0] ? (
                     <PhotoProvider

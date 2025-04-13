@@ -8,7 +8,7 @@ const AboutExperience = () => {
     <FadeInWhenVisible>
       <div className="maincontainer mt-20 md:mt-80">
         <div className="">
-          <Card className="">
+          <Card >
             <CardHeader>
               <CardTitle className="text-4xl font-PermanentMarker">
                 Experience
@@ -18,13 +18,13 @@ const AboutExperience = () => {
               {experince.map((item, index) => {
                 return (
                   <div key={index} className="mb-2">
-                    <div className="font-thai text-[22px] text-black leading-[25px] font-semibold">
+                    <div className="font-thai text-[22px] text-white leading-[25px] font-semibold">
                       {item.date}
                     </div>
-                    <div className="font-thai text-[22px] mt-1 text-black leading-[25px] font-semibold">
+                    <div className="font-thai text-[22px] mt-1 text-white/80 leading-[25px] font-semibold">
                       {item.title}
                     </div>
-                    <div className="font-thai mt-2 text-[17px] leading-[23px] text-black/90">
+                    <div className="font-thai mt-2 text-[17px] leading-[23px] text-white/80">
                       {item.description}
                     </div>
                   </div>
