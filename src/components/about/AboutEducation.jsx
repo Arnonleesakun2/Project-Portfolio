@@ -11,7 +11,7 @@ import {
 const AboutEducation = () => {
   return (
     <FadeInWhenVisible>
-      <div className="maincontainer pt-60 md:pt-40">
+      <div className="maincontainer pt-200 md:pt-40">
         <Card>
           <CardHeader>
             <CardTitle className="text-4xl font-PermanentMarker">
