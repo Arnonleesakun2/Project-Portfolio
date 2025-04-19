@@ -64,7 +64,7 @@ export const project = [
   },
   {
     image: [camping1, camping2, camping3, camping4, camping5, camping6],
-    title: "Project-Camping",
+    title: "Camping-Project",
     icon: [
       <FaReact />,
       <FaNodeJs />,
@@ -81,7 +81,7 @@ export const project = [
   },
   {
     image: "",
-    title: "Project-Todolist",
+    title: "Todolist-Project",
     icon: [<FaReact />,<SiShadcnui />, <RiTailwindCssFill />, <FaLaravel />, <SiSqlite />],
     des: "Project-Todolist เป็นโปรเจคเล็กๆ ที่มีการเพิ่ม ลบ รายการใน To-Do List โดยใช้ React ด้านหน้าบ้านและ Laravel ด้านหลังบ้าน โดยใช้ SQLite เป็นฐานข้อมูล",
     demo: "",
@@ -89,7 +89,7 @@ export const project = [
   },
   {
     image: [social1, social2, social3],
-    title: "Project-Social",
+    title: "Social-Project",
     icon: [
       <FaReact />,
       <SiShadcnui />,
@@ -105,7 +105,7 @@ export const project = [
   },
   {
     image: [blog],
-    title: "Project-SimpleBlog",
+    title: "SimpleBlog-Project",
     icon: [
       <RiNextjsFill />,
       <SiShadcnui />,
@@ -116,7 +116,6 @@ export const project = [
       <SiPostgresql />,
     ],
     des: "โปรเจ็ค Simple-Blog เป็นเว็บบล็อกขนาดเล็กที่ให้ฟีเจอร์ในการเพิ่ม, แก้ไข, และลบบล็อกโพสต์ โดยใช้เทคโนโลยีที่ทันสมัยในการพัฒนาและจัดการข้อมูล ดังนี้ Next.js ใช้เป็นเฟรมเวิร์กหลักในการพัฒนาเว็บไซต์ ShadcnUI ใช้ในการออกแบบ UI ของเว็บไซต์ให้ดูสวยงามและทันสมัย PostgreSQL และ Supabase ใช้ PostgreSQL ในการจัดเก็บข้อมูลของบล็อกโพสต์ และ Supabase เป็นบริการฐานข้อมูล Clerk ใช้ในการจัดการผู้ใช้และการยืนยันตัวตน (Authentication) Render ใช้ในการ deploy โปรเจ็คให้พร้อมใช้งานบนเว็บไซต์",
-    demo: "https://project-simpleblog.onrender.com/",
     github: ["https://github.com/Arnonleesakun2/Project-SimpleBlog"],
   },
   {
