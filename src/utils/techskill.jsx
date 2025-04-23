@@ -20,6 +20,7 @@ import picture19 from "../../public/imgTect/Postman.png";
 import picture20 from "../../public/imgTect/mongodb.png";
 import picture21 from "../../public/imgTect/postgreSQL.png";
 import picture22 from "../../public/imgTect/supabase.png";
+import picture23 from "../../public/imgTect/redux.png";
 
 export const techskill = [
   {
@@ -109,5 +110,9 @@ export const techskill = [
   {
     img: picture22,
     text: "Supabase",
+  },
+  {
+    img: picture23,
+    text: "Redux",
   },
 ];

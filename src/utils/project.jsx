@@ -18,6 +18,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { TbBrandRedux } from "react-icons/tb";
 import FigmaToReact1 from "/img/Project1.png";
 import carplan1 from "/img/carplan1.png";
 import carplan2 from "/img/carplan2.png";
@@ -38,6 +39,11 @@ import employee1 from "/img/employee1.png";
 import employee2 from "/img/employee2.png";
 import employee3 from "/img/employee3.png";
 import chatassitance from "/img/chatassitance.png";
+import ecom1 from "/img/ecom1.png";
+import ecom2 from "/img/ecom2.png";
+import ecom3 from "/img/ecom3.png";
+
+
 
 export const project = [
   {
@@ -133,5 +139,13 @@ export const project = [
     des: "โปรเจกต์เล็กๆ สำหรับแชทถามตอบกับ AI โดยใช้ Cohere AI ให้บริการ AI model",
     demo: "https://chat-assitance-client.vercel.app/",
     github: ["https://github.com/Arnonleesakun2/Chat-Assitance"],
+  },
+  {
+    image: [ecom1,ecom2,ecom3],
+    title: "E-commerce",
+    icon: [<FaReact />,<TbBrandRedux/>,  <RiTailwindCssFill />, <FaNodeJs />,<SiExpress/>,<RiSupabaseFill />,<SiPostgresql />],
+    des: "ระบบขายของออนไลน์ขนาดเล็ก พัฒนาด้วย React Tailwind Redux Node.js Express Supabase PostgreSQL มีระบบ login register แยกบทบาทผู้ใช้เป็น user และ admin โดยผู้ใช้สามารถเลือกซื้อสินค้า เพิ่มสินค้าลงตะกร้าและสั่งซื้อ ส่วน admin สามารถจัดการสินค้าและคำสั่งซื้อได้ ยังไม่มีระบบชำระเงิน",
+    demo: "https://e-commerce-ryes.netlify.app/",
+    github: ["https://github.com/Arnonleesakun2/E-commerce-project"],
   },
 ];
