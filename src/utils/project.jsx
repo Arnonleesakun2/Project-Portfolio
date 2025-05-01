@@ -19,7 +19,6 @@ import { SiShadcnui } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { TbBrandRedux } from "react-icons/tb";
-import FigmaToReact1 from "/img/Project1.png";
 import carplan1 from "/img/carplan1.png";
 import carplan2 from "/img/carplan2.png";
 import carplan3 from "/img/carplan3.png";
@@ -46,14 +45,6 @@ import ecom3 from "/img/ecom3.png";
 
 
 export const project = [
-  {
-    image: [FigmaToReact1],
-    title: "Figma to React",
-    icon: [<FaReact />, <RiTailwindCssFill />],
-    des: "โปรเจคนี้เป็นการแปลง ดีไซน์จาก Figma เป็นเว็บแอปพลิเคชันด้วย React.js โดยใช้ Tailwind CSS ในการออกแบบสไตล์ และ Deploy บน Netlify เพื่อให้สามารถเข้าถึงและใช้งานได้ง่าย",
-    demo: "https://project1-figmatoreact.netlify.app",
-    github: ["https://github.com/Arnonleesakun2/Project1-FigmatoReact"],
-  },
   {
     image: [carplan1, carplan2, carplan3, carplan4, carplan5],
     title: "ระบบสารสนเทศการวางแผนการเดินรถ",
